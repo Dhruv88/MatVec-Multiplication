@@ -1,18 +1,18 @@
 # Matrix vector implementation where matrix is in CSR format
 
 ## Code structure
-The code is written in main.c
-The input.txt file is for providing input
-The output.txt file stores the output
-The log.txt file stores some intermediate execution logs
+1. The code is written in main.c 
+2. The input.txt file is for providing input
+3. The output.txt file stores the output
+4. The log.txt file stores some intermediate execution logs
 
 ## Input format:
-The first line is m the matrix dimension
-The second line should have m space separated components of the input vector
-The third line should have row index for matrix in CSR format
-The fourth line should have the col index for matrix in CSR format
-The fiveth line should have corresponding the non-zero values
-The input in lines 2-5 should be space separated
+- The first line is m the matrix dimension
+- The second line should have m space separated components of the input vector
+- The third line should have row index for matrix in CSR format
+- The fourth line should have the col index for matrix in CSR format
+- The fiveth line should have corresponding the non-zero values
+- The input in lines 2-5 should be space separated
 
 ## Output:
 All m components of output vector space separated
